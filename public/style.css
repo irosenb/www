@@ -1,0 +1,84 @@
+body {
+	text-align: center;
+  color: white;
+  text-shadow: 1px 1px #555555;
+}
+
+.center section {
+	height: 100%;
+  padding: 350px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+section:not(:last-child):after {
+    content:'⬇️';
+    position: absolute;
+    font-size: 3em;
+    top: 86%;
+    left: 50%;
+    margin-left: -50px;
+    width: 0;
+    height: 0;
+}
+
+#isaac {
+  background-image: url("images/me.jpg");
+}
+
+#onemin {
+  background-image: url("images/oneminute.png");
+  text-shadow: none;
+  color: white;
+}
+
+#onemin span {
+  background-color: rgba(85, 85, 85, 1);
+  padding: 20px;
+}
+
+#builder {
+  background-image: url("images/WTC-construction.jpeg");
+}
+
+#sf {
+  background-image: url("images/fog.jpg");
+}
+
+.img, #share {
+  color: #555555;
+  text-shadow: none;
+}
+
+#share ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding-right: 10px;
+}
+
+#twitter {
+  color: #55acee;
+}
+
+#facebook {
+  color: #3b5998;
+}
+
+#email {
+  color: #555;
+}
+
+#oneminute {
+  color: #3bada7;
+  text-shadow: none;
+}
+
+#github {
+  color: #4183c4;
+}
+
+#blog {
+  color: rgba(0,0,0,0.8);
+}
+
