@@ -1,4 +1,4 @@
 
 $(document).ready(function($) {
-	$('.img-holder').imageScroll();
+	// twemoji.parse(document.body);
 });
