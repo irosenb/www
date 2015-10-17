@@ -17,7 +17,7 @@ sup {
   font-size: 1em;
 }
 
-section:not(:last-child):after {
+/*section:not(:last-child):after {
     content:'⬇️';
     position: absolute;
     font-size: 3em;
@@ -26,26 +26,46 @@ section:not(:last-child):after {
     margin-left: -50px;
     width: 0;
     height: 0;
-}
+}*/
 
 #isaac {
-  background-image: url("images/isaac.jpg");
-  background-position: bottom;
+  background-image: url("images/isaac.JPG");
+  background-position: bottom center;
+}
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) { 
+  #isaac h1 {  
+    margin-top: 2em;
+  }
+
+  #onemin span {
+    line-height: 1.5em;
+  }
 }
 
 #onemin {
   background-image: url("images/oneminute.png");
   text-shadow: none;
   color: white;
-}
-
-#onemin span {
-  background-color: rgba(85, 85, 85, 1);
-  padding: 5px;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.7);
 }
 
 #builder {
-  background-image: url("images/WTC-construction.jpeg");
+  background-image: url("images/clay.jpeg");
+}
+/*
+.layer {
+  display: table;
+  background-color: rgba(0,0,0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+*/
+#absolute {
+  margin: auto;
 }
 
 #sf {
@@ -55,6 +75,12 @@ section:not(:last-child):after {
 .img, #share {
   color: #555555;
   text-shadow: none;
+}
+
+#share ul {
+  /*padding-left: 0;*/
+  width: 100%;
+  margin: 0 auto;
 }
 
 #share ul li {
@@ -76,7 +102,7 @@ section:not(:last-child):after {
 }
 
 #oneminute {
-  color: #3bada7;
+  color: #16ebe2;
   text-shadow: none;
 }
 

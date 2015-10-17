@@ -2,5 +2,6 @@
   "name": "isaac",
   "root": "public",
   "clean_urls": true,
-  "error_page": "error.html"
+  "error_page": "error.html",
+  "exclude": ["images/isaac2.jpg", "images/isaac3.jpg", "images/isaac4.jpg", "images/isaac5.jpg", "images/isaac6.jpg"]
 }
